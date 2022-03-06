@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.top-page{
+    
+    display: flex;
+    background: #2D25A0;
+    
+
+}
+
+.top-page img {
+
+    width: 556.01px;
+    height: 438px;
+    margin-right: 140px;
+       
+}
+
+.feature-text{
+    color: white;
+    font-size: 53px;
+    height: 230px;
+    margin-left: 156px;
+    width: 485px;
+ 
+    
+}
+
+a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+
+.all-players{
+   display: flex;
+  justify-content: center;
+   margin-left: 200px;
+   margin-right: 170px;
+   margin-top: 70px;
+
+}
+
+ 
+.players-details{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    
+
+
+}
+.player-details img{
+    width: 330px;
+}
+.player-details{
+
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 15px; 
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.player-name{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+
+.about{
+    font-size: 10px;
+    color: #6C6C6C;
+    font-weight: bold;
+    font-style: normal;
+    font-size: normal;
+}
+
+.last-page{
+    margin-top: 90px;
+    margin-left: 60px;
+    
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.copa-highlights{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+ 
+
+.copa-highlights img{
+    width: 567px;
+height: 427px;
+    margin-left: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(194, 179, 179, 0.15);
+} 
+
+.video-info{
+    width: 480px;
+    height: 309px;
+    
+   
+}
+
+.title{
+    font-size: 48px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 63px;
+}
